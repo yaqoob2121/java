@@ -11,6 +11,7 @@ public class SubjectRunner {
 		Subject1.NumberOfChar("sunskrutikakannada");
 		Subject1.NumberOfChar("Digital signal pocessing");
 		Subject1.NumberOfChar("21EC42");
+		Subject1.getNumberOfWords("hello this is ongoing java workshop in NIT campus");
 	}
 
 }

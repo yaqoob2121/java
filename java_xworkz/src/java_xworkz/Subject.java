@@ -39,5 +39,12 @@ public class Subject {
 		System.out.println("the count is:"+SubjectCode.length());
 	}
 	
+	//get the word count
+	public void getNumberOfWords(String sentence) {
+		System.out.println("sentence is:"+sentence);
+		String words[] = sentence.split(" ");
+		System.out.println("word count is:"+words.length);
+	}
+	
 
 }
